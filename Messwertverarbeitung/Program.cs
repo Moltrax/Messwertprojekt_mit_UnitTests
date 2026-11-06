@@ -52,12 +52,12 @@ namespace Messwertverarbeitung
             return Summe(m1, m2, m3, m4, m5) != 0;
         }
 
-        public static double Summe(double m1, double m2, double m3, double m4, double m5)
+        private static double Summe(double m1, double m2, double m3, double m4, double m5)
         {
             return m1 + m2 + m3 + m4 + m5;
         }
 
-        public static double Durchschnitt(double m1, double m2, double m3, double m4, double m5)
+        private static double Durchschnitt(double m1, double m2, double m3, double m4, double m5)
         {
             return Summe(m1, m2, m3, m4, m5) / 5.0;
         }
